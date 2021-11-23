@@ -1,0 +1,89 @@
+.test {
+    color: rgb(0, 81, 255);
+    list-style-type: none;
+    font-size: 40px;
+    text-align: center;
+}
+.dsach {
+    color: chartreuse;
+    font-size: 40px;
+}
+.bank {
+    color:black;
+    list-style-type: none ;
+    font-size: 30px;
+    text-align: center;
+}
+.bank h1 {
+    color:#f6422e;
+}
+.bank li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contain {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+}
+.save {
+    display: none;
+}
+.tab {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.tab_item {
+    display: flex;
+    align-items: center;
+    color: #ea4c89;
+    opacity: 0.5;
+    padding: 0 20px;
+    border-bottom: 4px solid transparent;
+}
+.tab_item:hover {
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.05); ;
+}
+
+.tab_item i {
+    margin-right: 16px;
+    font-size: 26px;
+}
+.tab-content {
+    width: 800px;
+    margin: auto;
+    font-size: 26px;
+}
+.line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ea4c89;
+    height: 4px;
+    border-radius: 50px;
+    width: 0px;
+    transition: all 0.3s ease ;
+}
+.tab-pane {
+    display: none;
+    margin-bottom: 400px;
+}
+.tab_item.active {
+    opacity: 1;
+}
+.tab-pane.active {
+    display: block;
+}
